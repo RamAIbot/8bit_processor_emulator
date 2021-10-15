@@ -1,0 +1,13 @@
+FOR MULTIPLICATION DUE TO THE CARRY AND ZERO FLAG IN OUR EMULATOR
+WE GET product = (x-1) * y
+
+So to get a product for 3 and 5 
+assign x = 4
+and y =5
+
+THis is due to the fact the 
+we first subtract the value of x 
+Iteration 1 : 3 - 1 =2
+Iteration 2: 2 - 1 = 1
+
+Iteration 3: 1 - 1 = 0 and Zero flag is set immediately and program halts.
